@@ -53,7 +53,8 @@ By default video conversion is disabled since no known lossless video transcodin
 2. Restart your Docker Compose services:
 
     ```sh
-    docker compose restart
+    docker compose down
+    docker compose up -d
     ```
 
 ## Available flags
